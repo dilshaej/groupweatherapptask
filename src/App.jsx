@@ -25,7 +25,7 @@ function App() {
   return (
    <div className='div1'>
       <div  className=' d-flex justify-content-center align-items-center' style={{width:'100%',height:'100vh'}}>
-        <div style={{width:'600px'}} className="bg-info p-5 rounded">
+        <div style={{width:'600px'}} className="bg-light p-5 rounded">
         <header className="App-header">
           <h1 className="mb-3">Weather App</h1>
           <InputGroup className="mb-3 rounded p-3">
@@ -38,6 +38,7 @@ function App() {
   </Button>
   
           </InputGroup>
+          <img style={{height:'300px'}} src="https://i.pinimg.com/564x/b8/77/39/b87739514d9b55a49676d76a19c17bb0.jpg" alt="" />
   
          
   
